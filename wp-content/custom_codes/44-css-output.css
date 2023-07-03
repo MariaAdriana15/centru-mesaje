@@ -1,0 +1,52 @@
+/* xl - DESKTOP STYLES */ 
+.centru_mesaje-one {
+	background-color: white !important;
+}
+.centru_mesaje-one .p1{
+	font-size: 30px;
+	color: rgb(249, 161,22);
+	padding-top:40px;
+}
+.centru_mesaje-one .atentie{
+	display:flex;
+	align-items: center;
+}
+.centru_mesaje-one .p2{
+	font-size: 21px;
+	font-weight:bold;
+	padding-right:8px;
+}
+.centru_mesaje-one .p2{
+	font-size: 21px;
+	padding-right:8px;
+}
+.centru_mesaje-one .a1{
+	color: black;
+	text-decoration: none;
+}
+@media (max-width:1000px){
+	.centru_mesaje-one .p1{
+		font-size: 21px;
+	}
+	.centru_mesaje-one .atentie{
+		display: block;
+	}
+}
+.wpforms-form{
+	padding: 40px !important;
+	border-radius: 40px !important;
+	box-shadow: 4px 4px 32px 4px rgba(161, 161, 161, 1) !important;
+}
+.wpforms-submit{
+	display: block !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+@media (max-width:480px){
+	.wpforms-form{
+		padding: 21px !important;
+
+	}
+}
+
+

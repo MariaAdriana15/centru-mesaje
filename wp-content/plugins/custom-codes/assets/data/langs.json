@@ -1,0 +1,409 @@
+[
+	{
+		"id": "css",
+		"name": "CSS",
+		"mode": "text/css",
+		"group": "style",
+		"output": true,
+		"pro": false,
+		"editors": [
+			{
+				"id": "css-desktop",
+				"name": "Desktop",
+				"icon": "dashicons-desktop",
+				"placeholder": "",
+				"description": "Desktop"
+			},
+			{
+				"id": "css-tablet-l",
+				"name": "Tablet",
+				"icon": "dashicons-tablet l",
+				"placeholder": "",
+				"description": "Tablet Landscape"
+			},
+			{
+				"id": "css-tablet-p",
+				"name": "Tablet",
+				"icon": "dashicons-tablet",
+				"placeholder": "",
+				"description": "Tablet Portrait"
+			},
+			{
+				"id": "css-mobile-l",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone l",
+				"placeholder": "",
+				"description": "Mobile Landscape"
+			},
+			{
+				"id": "css-mobile-p",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone",
+				"placeholder": "",
+				"description": "Mobile Portrait"
+			},
+			{
+				"id": "css-retina",
+				"name": "Retina",
+				"icon": "dashicons-laptop",
+				"placeholder": "",
+				"description": "Retina Displays"
+			},
+			{
+				"id": "css-default",
+				"name": "Default",
+				"icon": null,
+				"placeholder": "",
+				"description": "Default"
+			}
+		],
+		"includables": [
+			"scss",
+			"less",
+			"styl",
+			"css"
+		]
+	},
+	{
+		"id": "scss",
+		"name": "SCSS",
+		"mode": "text/x-scss",
+		"group": "style",
+		"output": true,
+		"pro": false,
+		"editors": [
+			{
+				"id": "scss-desktop",
+				"name": "Desktop",
+				"icon": "dashicons-desktop",
+				"placeholder": "",
+				"description": "Desktop SCSS"
+			},
+			{
+				"id": "scss-tablet-l",
+				"name": "Tablet",
+				"icon": "dashicons-tablet l",
+				"placeholder": "",
+				"description": "Tablet Landscape"
+			},
+			{
+				"id": "scss-tablet-p",
+				"name": "Tablet",
+				"icon": "dashicons-tablet",
+				"placeholder": "",
+				"description": "Tablet Portrait"
+			},
+			{
+				"id": "scss-mobile-l",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone l",
+				"placeholder": "",
+				"description": "Mobile Landscape"
+			},
+			{
+				"id": "scss-mobile-p",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone",
+				"placeholder": "",
+				"description": "Mobile Portrait"
+			},
+			{
+				"id": "scss-retina",
+				"name": "Retina",
+				"icon": "dashicons-laptop",
+				"placeholder": "",
+				"description": "Retina Displays"
+			},
+			{
+				"id": "scss-default",
+				"name": "Default",
+				"icon": null,
+				"placeholder": "",
+				"description": "Default SCSS"
+			}
+		],
+		"includables": [
+			"scss",
+			"less",
+			"styl",
+			"css"
+		]
+	},
+	{
+		"id": "less",
+		"name": "LESS",
+		"mode": "text/x-less",
+		"group": "style",
+		"output": true,
+		"pro": true,
+		"editors": [
+			{
+				"id": "less-desktop",
+				"name": "Desktop",
+				"icon": "dashicons-desktop",
+				"placeholder": "",
+				"description": "Desktop"
+			},
+			{
+				"id": "less-tablet-l",
+				"name": "Tablet",
+				"icon": "dashicons-tablet l",
+				"placeholder": "",
+				"description": "Tablet Landscape"
+			},
+			{
+				"id": "less-tablet-p",
+				"name": "Tablet",
+				"icon": "dashicons-tablet",
+				"placeholder": "",
+				"description": "Tablet Portrait"
+			},
+			{
+				"id": "less-mobile-l",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone l",
+				"placeholder": "",
+				"description": "Mobile Landscape"
+			},
+			{
+				"id": "less-mobile-p",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone",
+				"placeholder": "",
+				"description": "Mobile Portrait"
+			},
+			{
+				"id": "less-retina",
+				"name": "Retina",
+				"icon": "dashicons-laptop",
+				"placeholder": "",
+				"description": "Retina Displays"
+			},
+			{
+				"id": "less-default",
+				"name": "Default",
+				"icon": null,
+				"placeholder": "",
+				"description": "Default"
+			}
+		],
+		"includables": [
+			"scss",
+			"less",
+			"styl",
+			"css"
+		]
+	},
+	{
+		"id": "styl",
+		"name": "Stylus",
+		"mode": "text/x-styl",
+		"group": "style",
+		"output": true,
+		"pro": true,
+		"editors": [
+			{
+				"id": "styl-desktop",
+				"name": "Desktop",
+				"icon": "dashicons-desktop",
+				"placeholder": "",
+				"description": "Desktop"
+			},
+			{
+				"id": "styl-tablet-l",
+				"name": "Tablet",
+				"icon": "dashicons-tablet l",
+				"placeholder": "",
+				"description": "Tablet Landscape"
+			},
+			{
+				"id": "styl-tablet-p",
+				"name": "Tablet",
+				"icon": "dashicons-tablet",
+				"placeholder": "",
+				"description": "Tablet Portrait"
+			},
+			{
+				"id": "styl-mobile-l",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone l",
+				"placeholder": "",
+				"description": "Mobile Landscape"
+			},
+			{
+				"id": "styl-mobile-p",
+				"name": "Mobile",
+				"icon": "dashicons-smartphone",
+				"placeholder": "",
+				"description": "Mobile Portrait"
+			},
+			{
+				"id": "styl-retina",
+				"name": "Retina",
+				"icon": "dashicons-laptop",
+				"placeholder": "",
+				"description": "Retina Displays"
+			},
+			{
+				"id": "styl-default",
+				"name": "Default",
+				"icon": null,
+				"placeholder": "",
+				"description": "Default"
+			}
+		],
+		"includables": [
+			"scss",
+			"less",
+			"styl",
+			"css"
+		]
+	},
+	{
+		"id": "js",
+		"name": "JavaScript",
+		"mode": "text/javascript",
+		"group": "script",
+		"output": false,
+		"pro": false,
+		"editors": [
+			{
+				"id": "js-head",
+				"name": "Head",
+				"icon": null,
+				"description": null
+			},
+			{
+				"id": "js-body-opening",
+				"name": "Opening Body",
+				"icon": null,
+				"description": "Only works if location is Frontend"
+			},
+			{
+				"id": "js-body-closing",
+				"name": "Closing Body",
+				"icon": null,
+				"description": null
+			}
+		],
+		"includables": [
+			"js"
+		]
+	},
+	{
+		"id": "coffee",
+		"name": "CoffeeScript",
+		"mode": "text/x-coffeescript",
+		"group": "script",
+		"output": "individual",
+		"pro": true,
+		"editors": [
+			{
+				"id": "coffee-head",
+				"name": "Head",
+				"icon": null,
+				"description": null
+			},
+			{
+				"id": "coffee-body-opening",
+				"name": "Opening Body",
+				"icon": null,
+				"description": "Only works if location is Frontend"
+			},
+			{
+				"id": "coffee-body-closing",
+				"name": "Closing Body",
+				"icon": null,
+				"description": null
+			}
+		],
+		"includables": [
+			"coffee",
+			"js"
+		]
+	},
+	{
+		"id": "html",
+		"name": "HTML",
+		"mode": "text/html",
+		"group": "html",
+		"output": false,
+		"pro": false,
+		"editors": [
+			{
+				"id": "html-head",
+				"name": "Head",
+				"icon": null,
+				"description": null
+			},
+			{
+				"id": "html-body-opening",
+				"name": "Opening Body",
+				"icon": null,
+				"description": "Only works if location is Frontend"
+			},
+			{
+				"id": "html-body-closing",
+				"name": "Closing Body",
+				"icon": null,
+				"description": null
+			}
+		],
+		"includables": [
+			"html",
+			"pug"
+		]
+	},
+	{
+		"id": "pug",
+		"name": "PUG",
+		"mode": "text/x-pug",
+		"group": "html",
+		"output": "individual",
+		"pro": true,
+		"editors": [
+			{
+				"id": "pug-head",
+				"name": "Head",
+				"icon": null,
+				"description": null
+			},
+			{
+				"id": "pug-body-opening",
+				"name": "Opening Body",
+				"icon": null,
+				"description": "Only works if location is Frontend"
+			},
+			{
+				"id": "pug-body-closing",
+				"name": "Closing Body",
+				"icon": null,
+				"description": null
+			}
+		],
+		"includables": [
+			"html",
+			"pug"
+		]
+	},
+	{
+		"id": "php",
+		"name": "Custom Functions",
+		"mode": "application/x-httpd-php",
+		"group": "php",
+		"output": false,
+		"pro": false,
+		"editors": [
+			{
+				"id": "php-default",
+				"name": "Default",
+				"icon": null,
+				"placeholder": "Start with <?php or write your PHP codes into HTML here...",
+				"description": null
+			}
+		],
+		"includables": [
+			"php"
+		]
+	}
+]

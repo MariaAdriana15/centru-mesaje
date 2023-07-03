@@ -1,0 +1,209 @@
+// Settings Page Styles
+$background-color: #0a0d15;
+
+:root {
+	--tw-shadow: 0 0 #0000;
+	--tw-ring-inset: var(--tw-empty,);
+	--tw-ring-offset-width: 0px;
+	--tw-ring-offset-color: #fff;
+	--tw-ring-color: rgba(59, 130, 246, 0.5);
+	--tw-ring-offset-shadow: 0 0 #0000;
+	--tw-ring-shadow: 0 0 #0000;
+}
+
+
+#custom-codes-settings {
+	width: auto;
+	margin: 0;
+	display: block;
+	margin: 20px 20px 0 0;
+
+	#setting-error-settings_updated {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+
+	form {
+		padding: 5px 5px 20px 10px;
+	}
+
+	.section-title {
+		padding: 25px 0 15px 0;
+		display: block;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+		h3 {
+			margin: 7px 0 7px 0;
+		}
+
+		p {
+			margin: 0;
+			color: rgba(0, 0, 0, 0.6);
+		}
+
+	}
+
+	.tab-content {
+		display: none;
+		border-color: #9da4b3;
+		--tw-ring-offset-color: #fff;
+		box-sizing: border-box;
+		width: 100%;
+		border-radius: 0.25rem;
+		background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+		padding: 0 1.75rem 1rem 1.75rem;
+		--tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+		--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+		--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+		box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+		--tw-ring-color: rgba(17, 24, 39, var(--tw-ring-opacity));
+		--tw-ring-opacity: 0.05;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 150ms;
+		background-color: #FFF;
+		margin: 20px 0;
+
+
+
+		&.active {
+			display: block;
+		}
+	}
+
+	.codes-header {
+		background-color: $background-color;
+		color: #fff;
+		padding: 18px 30px;
+		margin: -20px -20px 0 -20px;
+
+		& > .top {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			& > * {
+				display: flex;
+				align-items: center;
+			}
+
+			.branding {
+				font-size: 21px;
+				font-weight: 600;
+
+				.version {
+					text-decoration: none;
+					color: #FFF;
+					margin-top: 0px;
+					background: #c33030;
+					margin-left: 10px;
+					border-radius: 100px;
+					padding: 2px 8px;
+					font-size: 10px;
+				}
+
+			}
+
+			.navigation {
+
+				a {
+					color: rgba(255, 255, 255, 0.5);
+					font-size: 13px;
+					font-weight: 500;
+					text-decoration: none;
+					background-color: rgba(255, 255, 255, 0.1);
+					display: flex;
+					height: 37px;
+					align-items: center;
+					line-height: 37px;
+					border-radius: 100px;
+					padding: 0 18px;
+					margin: 0 0 0 8px;
+					transition: 0.3s all;
+
+					&.active {
+						background-color:rgba(255, 255, 255, 0.2);
+						color: #FFF;
+					}
+
+					&:hover {
+						color: #fff;
+					}
+
+					span {
+						display: inline-block;
+					}
+
+					svg {
+						margin-right: 5px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+	.settings-tabs {
+		margin: 0 -20px 0 -30px;
+		background: #FFF;
+		padding: 0 30px;
+
+		font-family: inherit;
+		border-width: 0;
+		border-style: solid;
+		border-color: #9da4b3;
+		--tw-ring-inset: var(--tw-empty,);
+		--tw-ring-offset-width: 0px;
+		--tw-ring-offset-color: #fff;
+		box-sizing: border-box;
+		flex: none;
+		--tw-bg-opacity: 1;
+		background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+		font-size: .835rem;
+		font-weight: 500;
+		line-height: 1.5rem;
+		--tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+		--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+		--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+		box-shadow: var(--tw-ring-offset-shadow),
+		var(--tw-ring-shadow),
+		var(--tw-shadow, 0 0 #0000);
+		--tw-ring-color: rgba(177, 184, 199, var(--tw-ring-opacity));
+		--tw-ring-opacity: 0.05;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 150ms;
+		height: 50px;
+		display: flex;
+		align-items: center;
+
+		& > a {
+			font-size: 14px;
+			line-height: 24px;
+			font-weight: 600;
+
+			color: rgba(97, 104, 119, 1);
+			text-decoration: none;
+			font-size: 14px;
+			padding: 15px 12px;
+			display: inline-flex;
+			font-weight: 500;
+
+			&:hover,
+			&:focus,
+			&.active {
+				color: #010101;
+				outline: none;
+				box-shadow: none;
+			}
+
+			&.active {
+				color: #c33030;
+			}
+
+		}
+	}
+
+}

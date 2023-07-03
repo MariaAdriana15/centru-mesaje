@@ -1,0 +1,26 @@
+{
+  "name": "custom-codes",
+  "version": "2.0.0",
+  "description": "Your custom SASS, CSS, JS, PHP and HTML customizations in same directory.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cli": "latest",
+    "gulp-sass": "^4",
+    "gulp-sass-lint": "latest",
+    "gulp-sourcemaps": "latest"
+  },
+  "keywords": [],
+  "author": "PressX",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp"
+  },
+  "browserslist": [
+    "ff > 2",
+    "> 2%",
+    "ie 8"
+  ]
+}
